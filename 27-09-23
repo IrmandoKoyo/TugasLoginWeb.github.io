@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .column:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            clear: both;
+        }
+
+        /* Media Query untuk tampilan seluler */
+        @media (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MANFAAT 4 MACAM DAUN</h1>
+    </header>
+    <div class="container">
+        <div class="column" style="background-color: #FF7675;">
+            <h2>Daun Mint</h2>
+            <p>Daun mint memiliki manfaat sebagai penambah aroma dan rasa pada makanan dan minuman.</p>
+        </div>
+        <div class="column" style="background-color: #74B9FF;">
+            <h2>Daun Kemangi</h2>
+            <p>Daun kemangi memiliki manfaat sebagai bahan pelengkap pada masakan dan memiliki khasiat untuk kesehatan.</p>
+        </div>
+        <div class="column" style="background-color: #FFEAA7;">
+            <h2>Daun Sirih</h2>
+            <p>Daun sirih memiliki manfaat sebagai obat tradisional untuk kesehatan mulut dan tenggorokan.</p>
+        </div>
+        <div class="column" style="background-color: #55E6C1;">
+            <h2>Daun Jambu</h2>
+            <p>Daun jambu memiliki manfaat sebagai sumber vitamin C dan antioksidan yang baik untuk kesehatan.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Irmando Koyo || Tugas Web menggunakan FLOAT</p>
+    </footer>
+</body>
+</html>
 
